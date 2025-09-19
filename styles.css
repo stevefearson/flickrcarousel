@@ -1,0 +1,118 @@
+.blue-text {
+ display: inline-block;
+ border-radius: 4px;
+padding: 6px;
+background-color: #2a5379;
+}
+.page-aware-gadget {
+  width: 100%;
+    }
+.flickr-carousel {
+  padding: 20px 20px 5px 20px;
+}
+.flickr-slide {
+min-height: 100px;
+  padding: 0px 0px 0px 0px; 
+  margin: 12px 5px 22px 5px; /* Adds space around each photo */
+  box-sizing: border-box;
+border: 1px solid rgba(241,243,244,0.6);
+border-radius: 12px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  box-shadow: 0 2px 2px rgba(0,0,0,0.1);
+}
+.flickr-slide:hover {
+  transform: scale(1.02);
+  box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+}
+.flickr-img-wrap {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  background: #fff;
+}
+.flickr-img-wrap img {
+  width: 100%;
+  border-radius: 12px;
+  display: block;
+}
+.flickr-caption {
+  position: absolute;
+  bottom: 4pt; left: 3pt; right: 11pt;
+  background: rgba(42,83,121,0.6);
+  color: #fff;
+  font-size: 1.4rem;
+  padding: 4px 6px;
+  box-sizing: border-box;
+  border-radius: 0 0 6px 6px;
+  max-height: 1.4em;
+  overflow: hidden;
+  transition: max-height 0.3s ease, background 0.3s ease, opacity 0.3s ease;
+  opacity: 0.9;
+}
+.carousel-title {
+color: white;
+  font-size: 1.4rem;
+  text-align: center;
+  padding: 4px 6px;
+  box-sizing: border-box;
+  border-radius: 0 0 6px 6px;
+  max-height: 1.4em;
+}
+.caption-title {
+  font-weight: normal;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.caption-desc {
+  font-weight: normal;
+  margin-top: 2px;
+  font-size: 0.8rem;
+  line-height: 1.2em;
+}
+.flickr-caption.show-desc {
+  max-height: 6em;
+  background: rgba(42,83,121,0.6);
+  opacity: 1;
+}
+
+/* === Custom centered nav === */
+.flickr-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin: 0px 0 128px;
+  user-select: none;
+}
+.fnav {
+  background: transparent;
+  border: none;
+  color: #000;
+  font-size: 28px;
+  line-height: 1;
+  padding: 0px 10px;
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+.fnav:hover {
+  color: #111;
+  transform: scale(1.2);
+}
+.fnav:focus {
+  outline: 2px solid rgba(0,0,0,0.3);
+  outline-offset: 2px;
+}
+.fnav[disabled] {
+  opacity: 0.35;
+  cursor: default;
+}
+
+/* Hide Slick’s arrows entirely */
+.slick-prev, .slick-next { display: none !important; }
+
+.flickr-img-wrap:hover .flickr-caption {
+  max-height: 6em;
+  background: rgba(42,83,121,0.6);
+  opacity: 1;
+}
