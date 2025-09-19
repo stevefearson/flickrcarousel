@@ -1,4 +1,6 @@
-body { background: red; }
+body {
+  background: red;
+}
 /* === Responsive layout === */
 @media (max-width: 768px) {
   .flickr-slide {
@@ -155,4 +157,5 @@ body { background: red; }
   background: rgba(42,83,121,0.6);
   opacity: 1;
 }
+
 
