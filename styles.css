@@ -5,7 +5,7 @@ body {
 /* === Responsive layout === */
 @media (max-width: 768px) {
   .flickr-slide {
-    flex: 0 1 calc(50% - 20px);
+    flex: 0 1 calc(30% - 20px);
   }
 }
 
@@ -168,4 +168,5 @@ body {
   background: rgba(42,83,121,0.6);
   opacity: 1;
 }
+
 
