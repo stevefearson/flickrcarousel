@@ -44,6 +44,7 @@ body {
   overflow: hidden;
   border-radius: 12px;
   background: #fff;
+  width: 70%;
 }
 
 .flickr-img-wrap img {
@@ -147,6 +148,7 @@ body {
   background: rgba(42,83,121,0.6);
   opacity: 1;
 }
+
 
 
 
