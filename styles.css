@@ -35,7 +35,7 @@ body {
 
 /* Each slide takes up ~33% of the row */
 .flickr-slide {
-  flex: 0 1 calc(33.333% - 20px);
+  flex: 0 1 calc(30% - 20px);
   box-sizing: border-box;
   margin-bottom: 20px;
   border: 1px solid rgba(241,243,244,0.6);
@@ -57,7 +57,7 @@ body {
 }
 
 .flickr-img-wrap img {
-  width: 100%;
+  width: 30%;
   height: auto;
   border-radius: 12px;
   display: block;
@@ -157,5 +157,6 @@ body {
   background: rgba(42,83,121,0.6);
   opacity: 1;
 }
+
 
 
