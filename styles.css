@@ -50,13 +50,14 @@ border-radius: 12px;
   opacity: 0.9;
 }
 .carousel {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 10px;
 }
 
 .carousel img {
-  width: 100%;
+  width: 30%;
   height: auto;
 }
 .carousel-title {
@@ -126,4 +127,5 @@ color: white;
   background: rgba(42,83,121,0.6);
   opacity: 1;
 }
+
 
