@@ -49,6 +49,16 @@ border-radius: 12px;
   transition: max-height 0.3s ease, background 0.3s ease, opacity 0.3s ease;
   opacity: 0.9;
 }
+.carousel {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.carousel img {
+  width: 100%;
+  height: auto;
+}
 .carousel-title {
 color: white;
   font-size: 1.4rem;
@@ -116,3 +126,4 @@ color: white;
   background: rgba(42,83,121,0.6);
   opacity: 1;
 }
+
