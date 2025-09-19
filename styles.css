@@ -2,17 +2,7 @@ body {
   background: red;
 }
 /* === Responsive layout === */
-@media (max-width: 768px) {
-  .flickr-slide {
-    flex: 0 1 calc(50% - 20px); /* 2 per row on tablets */
-  }
-}
 
-@media (max-width: 480px) {
-  .flickr-slide {
-    flex: 0 1 100%; /* 1 per row on phones */
-  }
-}
 
 .blue-text {
   display: inline-block;
@@ -157,6 +147,7 @@ body {
   background: rgba(42,83,121,0.6);
   opacity: 1;
 }
+
 
 
 
